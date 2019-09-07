@@ -131,7 +131,7 @@ width = 0.15
 plt.xticks(ind, x, fontsize=5, rotation=45)
 plt.ylabel('Stock Price')
 plt.show()
-plt.savefig("prediction_graph.png")
+plt.savefig("prediction_plot.png")
 plt.close()
 
 model_score = pd.DataFrame({'Model': ['Linear', 'Ridge', 'Lasso'], 'Score': [lreg_score, ridge_score, lasso_score]})
